@@ -6,3 +6,5 @@ applications:
   name: dummy-patents
   host: dummy-patents
   disk_quota: 1024M
+env:
+  JBP_CONFIG_IBMJDK: "version: 1.8.+"
