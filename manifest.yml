@@ -7,4 +7,6 @@ applications:
   host: dummy-patents
   disk_quota: 1024M
 env:
-  JBP_CONFIG_IBMJDK: "version: 1.8.+"
+  IBM_JVM_LICENSE: L-JWOD-9SYNCP
+  IBM_LIBERTY_LICENSE: L-MCAO-9SYMVC
+  JBP_CONFIG_IBMJDK: 'version: 1.8.+'
