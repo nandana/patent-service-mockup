@@ -6,7 +6,6 @@ applications:
   name: dummy-patents
   host: dummy-patents
   disk_quota: 1024M
-env:
-  IBM_JVM_LICENSE: L-JWOD-9SYNCP
-  IBM_LIBERTY_LICENSE: L-MCAO-9SYMVC
-  JBP_CONFIG_IBMJDK: 'version: 1.8.+'
+  env:
+    JBP_CONFIG_IBMJDK: "version: 1.8.+"
+    JBP_CONFIG_LIBERTY: "app_archive: {features: [servlet-3.1, jaxrs-2.0]}"
