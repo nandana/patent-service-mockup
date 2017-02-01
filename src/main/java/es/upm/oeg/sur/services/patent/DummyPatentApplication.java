@@ -29,7 +29,7 @@ public class DummyPatentApplication extends SpringBootServletInitializer {
     @Bean
     public Docket patentApi() {
         return new Docket(DocumentationType.SWAGGER_2)
-                .groupName("patent-api")
+                .groupName("patent-search-api")
                 .apiInfo(getApiInfo())
                 .select()
                 .paths(Predicates.not(PathSelectors.regex("/error"))) // Exclude Spring error controllers
