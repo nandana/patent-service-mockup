@@ -40,7 +40,7 @@ public class DummyPatentApplication extends SpringBootServletInitializer {
     UiConfiguration uiConfig() {
         return new UiConfiguration(
                 "validatorUrl",// url
-                "list",       // docExpansion          => none | list
+                "full",       // docExpansion          => none | list
                 "alpha",      // apiSorter             => alpha
                 "schema",     // defaultModelRendering => schema
                 UiConfiguration.Constants.DEFAULT_SUBMIT_METHODS,
