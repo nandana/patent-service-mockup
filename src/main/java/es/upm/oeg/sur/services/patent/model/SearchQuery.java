@@ -18,10 +18,10 @@ public class SearchQuery {
     @ApiModelProperty(value = "Applicant location filter")
     private String applicantLocation;
 
-    @ApiModelProperty(value = "A lower bound for the publication date", example = "2012-01-01")
+    @ApiModelProperty(value = "A lower bound for the publication date", example = "20120101")
     private String dateFrom;
 
-    @ApiModelProperty(value = "A upper bound for the publication date", example = "2016-12-31")
+    @ApiModelProperty(value = "A upper bound for the publication date", example = "20161231")
     private String dateTo;
 
     @ApiModelProperty(value = "Inventor filter")

@@ -10,7 +10,7 @@ public class Patent {
     @ApiModelProperty(value = "Title of the patent", example = "A cognitive technique to easily search patents")
     String title;
 
-    @ApiModelProperty(value = "Publication date of the patent", example = "2012-01-01")
+    @ApiModelProperty(value = "Publication date of the patent", example = "20120101")
     String publicationDate;
 
     @ApiModelProperty(value = "A list of inventors")
